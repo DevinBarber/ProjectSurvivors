@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ccfc59d685ce7b343b3cd24e0cfd7381, type: 3}
+  m_Name: PickupRadiusUpgrade
+  m_EditorClassIdentifier: 
+  upgradeName: Improved Pickup
+  upgradeToolTip: Increase pickup range by 10%.
+  upgradeSpriteImage: {fileID: 21300000, guid: 2c6d92a0ab3e7dc47b41320d9237e214, type: 3}
+  upgradeCooldownTime: 0
+  upgradeBaseDamage: 0
