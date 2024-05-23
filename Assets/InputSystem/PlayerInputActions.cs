@@ -275,7 +275,7 @@ public partial class @PlayerInputActions: IInputActionCollection2, IDisposable
                     ""id"": ""d66980c6-ce16-4477-a7ab-a069ded5785d"",
                     ""path"": ""<Gamepad>/leftStick"",
                     ""interactions"": """",
-                    ""processors"": """",
+                    ""processors"": ""InvertVector2"",
                     ""groups"": ""Gamepad"",
                     ""action"": ""MoveInverted"",
                     ""isComposite"": false,

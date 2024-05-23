@@ -128,7 +128,7 @@ public class EnemySpawnManager : MonoBehaviour
         switch (currentInterval)
         {
             case 0:
-                StartCoroutine(SpawnEnemiesCoroutine("Voidling", 5, 10, 6));
+                StartCoroutine(SpawnEnemiesCoroutine("Voidterror", 2, 3, 15));
                 break;
             case 1:
                 StartCoroutine(SpawnEnemiesCoroutine("Voidbat", 1, 2, 4));
