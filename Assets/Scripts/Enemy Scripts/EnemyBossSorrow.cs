@@ -18,6 +18,7 @@ public class EnemyBossSorrow : MonoBehaviour
 
     private enum State
     {
+        Spawn,
         Move,
         Teleporting,
         NovaAttack,
@@ -31,7 +32,7 @@ public class EnemyBossSorrow : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        bossState = State.Move;
+        bossState = State.Spawn;
     }
 
     // Update is called once per frame
@@ -39,6 +40,8 @@ public class EnemyBossSorrow : MonoBehaviour
     {
         switch(bossState)
         {
+            case State.Spawn:
+                break;
             case State.Move:
                 break;
             case State.Teleporting:
@@ -52,5 +55,14 @@ public class EnemyBossSorrow : MonoBehaviour
             case State.SpawnHealingOrbs:
                 break;
         }
+    }
+
+    private IEnumerator SorrowSpawn()
+    {
+        //Get player position and lock player into arena
+        //Get all enemies in pool and disable them -> Stop game timer
+        //Then off player position or something similar choose game state to start in
+
+        yield return null;
     }
 }
